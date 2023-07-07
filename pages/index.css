@@ -2,68 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Ysabeau+Office:ital,wght@0,100;1,100&display=swap');
 
-.contain {
-  background-color: #f5f5f5;
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
-  color: #333333;
-  overflow: hidden;
-}
-.card {
-  text-align: center;
-  padding: 30px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  width: 90%;
-  max-width: 400px;
-  margin: 0;
-}
-.title {
-  width: 100%;
-  font-size: 40px;
-  font-family: 'Ysabeau Office', sans-serif;
-  font-style: italic;
-}
-.subtitle {
-    font-size: 16px;
-    margin: 15px 0 15px 0;
-    font-family: 'Ysabeau Office', sans-serif;
-}
-.main__text {
-    font-size: 14px;
-    font-family: 'Frank Ruhl Libre', serif;
-}
-.perfil {
-  border-radius: 100%;
-  border: 1px solid #000;
-}
-.social-link {
-  display: inline-block;
-  margin: 10px;
-  text-decoration: none;
-  color: #333333;
-  transition: color 0.3s ease;
-}
 
-.icon-social {
-  vertical-align: middle;
-  margin-right: 5px;
-  width: 20px;
-}
+@import url(../blocks/contain.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/main__text/text.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/social-link/link.css);
+@import url(../blocks/icon-social/icon-social.css);
+@import url(../blocks/botao/botao.css);
+@import url(../blocks/perfil/perfil.css);
 
-.social-link:hover {
-  color: #ff5500;
-}
-.botao {
-  border: 2px 2px 2px #000;
-  box-shadow: 2px 2px 2px #000;
-  margin: 0 10px 0 0;
-}
-.botao:hover {
-  background-color: #787474;
-}
+
+
+
